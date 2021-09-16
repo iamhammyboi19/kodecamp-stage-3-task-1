@@ -1,0 +1,298 @@
+/* 
+below 1344px (smaller laptops)
+*/
+@media (max-width: 84rem) {
+  .service {
+    font-size: 11rem;
+  }
+  .dash-btn {
+    width: 65rem;
+  }
+  .header-positionEl {
+    left: 40%;
+    transform: translate(-60%, -30%);
+  }
+  .plumb-icon,
+  .water-icon,
+  .paint-bucket-icon {
+    width: 10rem;
+    height: 10rem;
+  }
+  .house-repair {
+    font-size: 5.2rem;
+  }
+  .paint-water-plumb-icons-pack {
+    margin-left: 4rem;
+  }
+  .close-icon {
+    top: 15%;
+  }
+}
+/* 
+below 1248px (smaller laptops)
+*/
+@media (max-width: 78em) {
+  .html {
+    font-size: 56.25;
+  }
+  .urgent-help-section,
+  .our-service-two,
+  .about-us-section {
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+  }
+  .quality-section {
+    padding-right: 3.2rem;
+  }
+  .header-positionEl {
+    left: 40%;
+    transform: translate(-60%, -30%);
+  }
+  .service {
+    font-size: 10rem;
+  }
+  .house-repair {
+    font-size: 4.2rem;
+  }
+  .dash-btn {
+    width: 55rem;
+  }
+  .qua-btn {
+    width: 52rem;
+  }
+  .plumb-icon,
+  .water-icon,
+  .paint-bucket-icon {
+    width: 10rem;
+    height: 10rem;
+  }
+  .hero-section-div {
+    height: 80vh;
+  }
+  .header {
+    padding: 3rem 7rem 3rem 7rem;
+  }
+  .close-icon {
+    top: 15%;
+  }
+}
+/* 
+below 944px (landscape tablets)
+*/
+@media (max-width: 59em) {
+  .html {
+    font-size: 50%;
+  }
+  .plumb-icon,
+  .water-icon,
+  .paint-bucket-icon {
+    width: 7rem;
+    height: 7rem;
+  }
+  .paint-water-plumb-icons-pack {
+    gap: 3.2rem;
+  }
+  .hero-section-div {
+    height: 100vh;
+  }
+  .header-positionEl {
+    transform: translate(-60%, -20%);
+  }
+  .our-service-p {
+    font-size: 1.6rem;
+  }
+  .heading-tertiary {
+    font-size: 2rem;
+  }
+  .our-service-icon {
+    height: 4rem;
+    width: 4rem;
+  }
+  .our-service-icon-con {
+    height: 8rem;
+    width: 8rem;
+  }
+  .how {
+    font-size: 3.6rem;
+  }
+  .needhelp,
+  .callusnow {
+    font-size: 2.4rem;
+  }
+  .urgent-first-p {
+    font-size: 1.2rem;
+  }
+  .heading-about {
+    font-size: 1.6rem;
+  }
+  .about-plumb {
+    font-size: 7rem;
+  }
+  .service-about {
+    font-size: 7.5rem;
+  }
+  .house-repair {
+    font-size: 3.2rem;
+  }
+  .service {
+    font-size: 7rem;
+  }
+  .dash-btn {
+    width: 45rem;
+  }
+  .quality-img {
+    width: 100%;
+  }
+  .best-qua {
+    font-size: 5.2rem;
+  }
+  .qua-btn {
+    width: 45rem;
+  }
+  .qua-p {
+    font-size: 1.6rem;
+  }
+  .about-plumb-services {
+    justify-items: center;
+  }
+  .todolist-head {
+    font-size: 2.4rem;
+  }
+  .todolist-p {
+    font-size: 2.4rem;
+  }
+  .how {
+    font-size: 2.4rem;
+  }
+  .our-service {
+    font-size: 1.4rem;
+  }
+  .how-spec {
+    font-size: 1.4rem;
+  }
+  .best-qua-pack {
+    width: 90%;
+  }
+  .header {
+    padding: 3rem 7rem 3rem 7rem;
+  }
+  .close-icon {
+    top: 15%;
+  }
+}
+
+/* 
+below 752px (smaller phones)
+*/
+@media (max-width: 47em) {
+  .grid--1--cols {
+    grid-template-columns: 1fr;
+  }
+  .paint-water-plumb-icons-pack {
+    display: none;
+  }
+  .close-icon {
+    top: 15%;
+  }
+  .house-repair {
+    font-size: 2.4rem;
+  }
+  .service {
+    font-size: 5rem;
+  }
+  .dash-btn {
+    width: 30rem;
+  }
+  .header-positionEl {
+    transform: translate(-30%, 50%);
+  }
+  .header {
+    padding: 1.2rem 2rem 2rem 1.2rem;
+  }
+  .quality-img {
+    width: 50%;
+  }
+  .urgent-help-section,
+  .our-service-two,
+  .about-us-section {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+  }
+  .quality-img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .quality-section {
+    padding-right: 0;
+  }
+  .best-qua-pack {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 3.2rem;
+  }
+  .urgent-first-p {
+    margin-top: 0;
+  }
+
+  .textalign {
+    padding: 0 1.6rem 0 1.6rem;
+  }
+  .best-qua {
+    font-size: 3.2rem;
+  }
+  .qua-btn {
+    width: 25rem;
+  }
+  .qua-p {
+    font-size: 1.2rem;
+  }
+  .how-help-section,
+  .urgent-help-section,
+  .our-service-two,
+  .about-us-section,
+  .todolist-section,
+  footer {
+    padding: 3.2rem 0;
+  }
+  .justify-urgent {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .about-plumb {
+    font-size: 3.8rem;
+  }
+  .service-about {
+    font-size: 3.9rem;
+  }
+  .rowgap {
+    gap: 2rem;
+  }
+  .sample {
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+  }
+  .hero-section-div {
+    background-position: right;
+  }
+  .callus-btn:link {
+    display: block;
+    justify-self: center;
+    margin-left: 0;
+  }
+  .book-callus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+  }
+}
+
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/

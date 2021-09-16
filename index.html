@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="kodecamp stage 3 project building responsive website "
+    />
+    <title>Kodecamp-stage-3</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="quieries.css" />
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <script defer src="clickmenu.js"></script>
+  </head>
+  <body>
+    <section class="hero-section">
+      <div class="hero-section-div">
+        <header class="header">
+          <h6 class="logo">logo</h6>
+          <button class="header-icon" type="submit" aria-label="search">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="192"
+              height="192"
+              fill="#000000"
+              viewBox="0 0 256 256"
+              class="the-header-icon"
+            >
+              <rect width="256" height="256" fill="none"></rect>
+              <line
+                x1="40"
+                y1="128"
+                x2="216"
+                y2="128"
+                stroke="#000000"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="16"
+              ></line>
+              <line
+                x1="40"
+                y1="64"
+                x2="216"
+                y2="64"
+                stroke="#000000"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="16"
+              ></line>
+              <line
+                x1="40"
+                y1="192"
+                x2="216"
+                y2="192"
+                stroke="#000000"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="16"
+              ></line>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="192"
+              height="192"
+              fill="#000000"
+              viewBox="0 0 256 256"
+              class="close-icon"
+            >
+              <rect width="256" height="256" fill="none"></rect>
+              <line
+                x1="200"
+                y1="56"
+                x2="56"
+                y2="200"
+                stroke="#fff"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="16"
+              ></line>
+              <line
+                x1="200"
+                y1="200"
+                x2="56"
+                y2="56"
+                stroke="#fff"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="16"
+              ></line>
+            </svg>
+          </button>
+        </header>
+        <nav class="main-list-nav">
+          <span class="main-nav-span">
+            <!-- <button class="the-close-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="192"
+                height="192"
+                fill="#000000"
+                viewBox="0 0 256 256"
+                class="close-icon"
+              >
+                <rect width="256" height="256" fill="none"></rect>
+                <line
+                  x1="200"
+                  y1="56"
+                  x2="56"
+                  y2="200"
+                  stroke="#fff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="16"
+                ></line>
+                <line
+                  x1="200"
+                  y1="200"
+                  x2="56"
+                  y2="56"
+                  stroke="#fff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="16"
+                ></line>
+              </svg>
+            </button> -->
+            <a href="#" class="main-nav">House Repair Services</a>
+          </span>
+        </nav>
+
+        <div class="header-positionEl">
+          <p class="house-repair">House repair</p>
+          <p class="service">services</p>
+          <button class="dash-btn">&nbsp;</button>
+          <div class="paint-water-plumb-icons-pack">
+            <div class="paint-bucket">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="-19 1 511 511.9995"
+                  width="24"
+                  class="paint-bucket-icon"
+                >
+                  <path
+                    d="m456.554688 23.800781h-58.375c-4.144532 0-7.5 3.355469-7.5 7.5 0 4.140625 3.355468 7.5 7.5 7.5h58.375c1.378906 0 2.5 1.121094 2.5 2.5v293.859375c0 4.140625 3.359374 7.5 7.5 7.5 4.144531 0 7.5-3.359375 7.5-7.5v-293.859375c0-9.652343-7.847657-17.5-17.5-17.5zm0 0"
+                  />
+                  <path
+                    d="m466.554688 360.320312c-4.140626 0-7.5 3.355469-7.5 7.5v101.167969c0 15.445313-12.5625 28.011719-28.007813 28.011719s-28.007813-12.566406-28.007813-28.011719v-166.824219c0-23.714843-19.296874-43.007812-43.011718-43.007812s-43.007813 19.292969-43.007813 43.007812v50.730469c0 15.445313-12.566406 28.007813-28.007812 28.007813-15.445313 0-28.011719-12.5625-28.011719-28.007813v-37.4375l38.175781-38.179687c5.210938-5.207032 6.964844-12.5625 5.316407-19.238282l92.007812-92.007812c7.910156-7.910156 7.910156-20.785156 0-28.695312l-98.539062-98.535157h67.554687c4.144531 0 7.5-3.359375 7.5-7.5 0-4.144531-3.355469-7.5-7.5-7.5h-82.554687l-17.863282-17.867187c-7.914062-7.910156-20.785156-7.910156-28.695312 0l-92 91.996094c-1.585938-.390626-3.222656-.617188-4.902344-.617188-5.417969 0-10.515625 2.109375-14.347656 5.941406l-39.792969 39.796875c-7.910156 7.910157-7.910156 20.78125 0 28.691407l52.773437 52.777343c-23.171874 22.632813-50.363281 43.210938-80.90625 61.191407-8.882812 5.230468-17.351562 11.847656-25.175781 19.667968-14.109375 14.113282-24.398437 30.523438-28.96875 46.210938-5.019531 17.242187-2.671875 31.855468 6.617188 41.144531 6.195312 6.195313 14.699219 9.226563 24.519531 9.226563 14.375-.003907 31.5625-6.503907 48.410156-19.078126 3.316406-2.480468 4-7.179687 1.523438-10.496093-2.480469-3.320313-7.179688-4.003907-10.496094-1.523438-21.441406 16-43.875 20.738281-53.351562 11.265625-5.164063-5.167968-6.191407-14.765625-2.820313-26.34375 3.875-13.304687 12.816406-27.4375 25.175781-39.796875 6.925782-6.925781 14.386719-12.765625 22.175782-17.347656 31.640624-18.628906 59.839843-39.988281 83.902343-63.511719l18.566407 18.5625c-23.527344 24.066406-44.882813 52.265625-63.511719 83.90625-2.328125 3.953125-5.066407 7.933594-8.144531 11.828125-2.566407 3.25-2.011719 7.96875 1.238281 10.535157 1.375 1.085937 3.015625 1.613281 4.644531 1.613281 2.214844 0 4.410156-.976563 5.890625-2.851563 3.5-4.429687 6.628906-8.976562 9.296875-13.515625 17.984375-30.546875 38.5625-57.738281 61.195312-80.910156l52.773438 52.773437c3.832031 3.835938 8.925781 5.945313 14.347656 5.945313.324219 0 .644532-.03125.964844-.046875v29.925781c0 23.714844 19.296875 43.007813 43.011719 43.007813 23.714843 0 43.007812-19.292969 43.007812-43.007813v-50.730469c0-15.441406 12.566407-28.007812 28.011719-28.007812 15.441406 0 28.007812 12.5625 28.007812 28.007812v166.824219c0 23.71875 19.292969 43.011719 43.007813 43.011719 23.71875 0 43.011719-19.292969 43.011719-43.011719v-101.167969c-.003906-4.144531-3.359375-7.5-7.503906-7.5zm-219.546876-343.78125c2.0625-2.0625 5.417969-2.0625 7.480469 0l131.402344 131.40625c2.0625 2.058594 2.0625 5.417969 0 7.476563l-89.9375 89.9375-35.082031-35.082031 15.195312-15.195313c2.929688-2.933593 2.929688-7.679687 0-10.609375-2.929687-2.925781-7.679687-2.925781-10.605468 0l-15.199219 15.195313-53.117188-53.117188 15.199219-15.195312c2.929688-2.925781 2.929688-7.675781 0-10.605469-2.929688-2.925781-7.679688-2.929688-10.605469 0l-15.199219 15.195312-8.082031-8.082031 59.8125-59.8125c2.929688-2.933593 2.929688-7.679687 0-10.609375-2.929687-2.929687-7.679687-2.929687-10.605469 0l-59.816406 59.8125-10.777344-10.777344zm-5.710937 289.925782-145.332031-145.328125c-2.0625-2.0625-2.0625-5.417969 0-7.480469l39.796875-39.792969c1-1 2.328125-1.550781 3.738281-1.550781 1.414062 0 2.742188.550781 3.742188 1.550781l145.328124 145.328125c2.0625 2.0625 2.0625 5.417969 0 7.480469l-39.792968 39.792969c-1 1-2.328125 1.550781-3.742188 1.550781-1.414062 0-2.738281-.550781-3.738281-1.550781zm0 0"
+                  />
+                  <path
+                    d="m148.273438 174.820312c-2.929688-2.929687-7.679688-2.929687-10.609376 0-2.929687 2.929688-2.929687 7.675782 0 10.605469l79.34375 79.34375c1.464844 1.460938 3.382813 2.195313 5.304688 2.195313 1.917969 0 3.835938-.734375 5.300781-2.195313 2.929688-2.933593 2.929688-7.679687 0-10.609375zm0 0"
+                  />
+                  <path
+                    d="m424.019531 182.277344h-.078125c-4.144531 0-7.460937 3.355468-7.460937 7.5 0 4.144531 3.394531 7.5 7.539062 7.5s7.5-3.355469 7.5-7.5c0-4.144532-3.355469-7.5-7.5-7.5zm0 0"
+                  />
+                  <path
+                    d="m430.199219 202.777344c-4.144531.054687-7.417969 3.453125-7.367188 7.59375.050781 4.109375 3.4375 7.40625 7.535157 7.40625h.097656c4.140625-.054688 7.457031-3.453125 7.40625-7.59375-.050782-4.109375-3.398438-7.40625-7.5-7.40625-.03125 0-.0625 0-.09375 0zm0 0"
+                  />
+                  <path
+                    d="m383.648438 225.882812c-4.144532 0-7.460938 3.355469-7.460938 7.5 0 4.140626 3.394531 7.5 7.539062 7.5 4.144532 0 7.5-3.359374 7.5-7.5 0-4.144531-3.355468-7.5-7.5-7.5zm0 0"
+                  />
+                </svg>
+              </span>
+              <span class="paint-bucket-text">painting</span>
+            </div>
+            <div class="water">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="Line_cutting_stroke_ex"
+                  height="24"
+                  viewBox="0 0 512 512"
+                  width="24"
+                  class="water-icon"
+                  data-name="Line cutting stroke ex"
+                >
+                  <g>
+                    <path
+                      d="m56 206a22.0248 22.0248 0 0 1 22-22h84a22.0248 22.0248 0 0 1 22 22v42h16v-42a38.0433 38.0433 0 0 0 -38-38h-2v-46a18.0206 18.0206 0 0 0 -18-18h-44a18.0206 18.0206 0 0 0 -18 18v46h-2a38.0433 38.0433 0 0 0 -38 38v50h16zm40-84a2.0023 2.0023 0 0 1 2-2h44a2.0023 2.0023 0 0 1 2 2v46h-48z"
+                    />
+                    <path
+                      d="m168 256v-30a18.0206 18.0206 0 0 0 -18-18h-60a18.0206 18.0206 0 0 0 -18 18v30h16v-30a2.0023 2.0023 0 0 1 2-2h60a2.0023 2.0023 0 0 1 2 2v30z"
+                    />
+                    <path
+                      d="m72 416a24 24 0 1 0 24 24 24.0272 24.0272 0 0 0 -24-24zm0 32a8 8 0 1 1 8-8 8.0092 8.0092 0 0 1 -8 8z"
+                    />
+                    <path
+                      d="m192.68 163.2285a8.004 8.004 0 0 0 4.79 4.3613l24 8a8.0008 8.0008 0 0 0 8.55-2.3222l41.98-47.9763v16.187l-54.5537 77.9338a7.9994 7.9994 0 0 0 -1.4463 4.5879v24h16v-21.4785l52.165-74.5215h37.8829l21.9521 73.1738v30.8262h16v-32a8.0078 8.0078 0 0 0 -.3374-2.2988l-23.6626-78.8753v-30.8259-.0234q0-.0788-.002-.1573l-.0008-.0378c-.0015-.0547-.0037-.1094-.0062-.1641l-.0038-.0715-.0059-.0933c-.0043-.0625-.0093-.1245-.0149-.1865l-.0015-.0173a7.9523 7.9523 0 0 0 -1.08-3.3245l-31.939-55.8931a7.9993 7.9993 0 0 0 -6.9459-4.0312h-96a8 8 0 0 0 -8 8v24a8.0006 8.0006 0 0 0 5.47 7.59l11.7158 3.9051-.6137 1.5344a7.9992 7.9992 0 0 0 5.4873 10.7314l1.963.4908-23.3331 52.5a8.0006 8.0006 0 0 0 -.0093 6.4768zm95.32-27.2285v-16h32v16zm-50.584-72h53.9414l22.857 40h-33.23l-54.1529-13.5381zm-29.416 10.2334v-10.2334h12.184l-5.0452 12.6128zm23.7809 33.9575 27.8338 6.9585-38.1318 43.5791-10.5937-3.5312z"
+                    />
+                    <path
+                      d="m494.6562 411.5625-45.0312-67.5469a17.9638 17.9638 0 0 0 -14.9771-8.0156h-10.6479v-248h-16v248h-16v-302a2.0023 2.0023 0 0 1 2-2h12a2.0023 2.0023 0 0 1 2 2v38h16v-38a18.0206 18.0206 0 0 0 -18-18h-12a18.0206 18.0206 0 0 0 -18 18v238h-88a8 8 0 0 0 -8-8h-136a8 8 0 0 0 -8 8h-112a8 8 0 0 0 -8 8v12a28.0314 28.0314 0 0 0 28 28h4v32h16v-32h72v96a8 8 0 0 0 8 8h96v-16h-88v-24h120v24h-16v16h24a8 8 0 0 0 8-8v-96h88v16h-10.6479a17.9638 17.9638 0 0 0 -14.9771 8.0156l-45.0312 67.5469a7.9982 7.9982 0 0 0 -1.3438 4.4375v64h-192.8458a55.9968 55.9968 0 0 0 -47.1542-95.43v-16.57h-16v21.4077a55.9975 55.9975 0 0 0 24 106.5923q2.0172 0 4-.1416v.1416h412a8 8 0 0 0 8-8v-72a7.9982 7.9982 0 0 0 -1.3438-4.4375zm-222.6562-131.5625v56h-120v-56zm-228 24a12.0134 12.0134 0 0 1 -12-12v-4h104v16zm108 64v-16h120v16zm136-64v-16h88v16zm-256 136a40 40 0 1 1 40 40 40.0455 40.0455 0 0 1 -40-40zm331.6875-87.1094a1.9971 1.9971 0 0 1 1.6646-.8906h69.2958a1.9971 1.9971 0 0 1 1.6646.8906l42.0729 63.1094h-156.7708zm84.3125 127.1094v-32h-16v32h-24v-32h-16v32h-24v-32h-16v32h-32v-48h160v48z"
+                    />
+                    <path d="m368 376h16v16h-16z" />
+                    <path d="m416 376h16v16h-16z" />
+                    <path d="m456 128h16v16h-16z" />
+                    <path d="m456 160h16v16h-16z" />
+                    <path d="m440 144h16v16h-16z" />
+                    <path d="m472 144h16v16h-16z" />
+                    <path d="m56 40h16v16h-16z" />
+                    <path d="m56 72h16v16h-16z" />
+                    <path d="m40 56h16v16h-16z" />
+                    <path d="m72 56h16v16h-16z" />
+                  </g>
+                </svg>
+              </span>
+              <span class="water-text">cleaning</span>
+            </div>
+            <div class="plumb">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  viewBox="0 0 512.00038 512"
+                  width="24"
+                  class="plumb-icon"
+                >
+                  <path
+                    d="m433.429688 462.703125-11.527344 11.527344c-23.65625 23.65625-62.148438 23.65625-85.804688 0l-11.527344-11.527344c-1.875-1.875-4.417968-2.929687-7.070312-2.929687s-5.195312 1.054687-7.070312 2.929687l-11.527344 11.523437c-11.457032 11.460938-26.695313 17.773438-42.902344 17.773438s-31.441406-6.3125-42.902344-17.769531l-11.527344-11.527344c-1.875-1.875-4.417968-2.929687-7.070312-2.929687s-5.195312 1.054687-7.070312 2.929687l-11.527344 11.523437c-23.652344 23.660157-62.144532 23.65625-85.804688 0l-11.523437-11.523437c-3.90625-3.90625-10.234375-3.90625-14.144531 0-3.90625 3.902344-3.90625 10.234375 0 14.140625l11.527343 11.527344c31.453125 31.453125 82.632813 31.457031 114.089844 0l4.453125-4.457032 4.457031 4.457032c15.234375 15.238281 35.492188 23.628906 57.042969 23.628906 21.546875 0 41.808594-8.390625 57.042969-23.628906l4.457031-4.453125 4.453125 4.453125c31.457031 31.457031 82.636719 31.457031 114.089844 0l11.527343-11.527344c3.90625-3.902344 3.90625-10.234375 0-14.140625s-10.234374-3.90625-14.140624 0zm0 0"
+                  />
+                  <path
+                    d="m509.070312 390.929688c-3.90625-3.90625-10.234374-3.90625-14.140624 0l-11.527344 11.527343c-23.65625 23.652344-62.148438 23.652344-85.804688 0l-11.527344-11.527343c-1.875-1.875-4.417968-2.929688-7.070312-2.929688s-5.195312 1.054688-7.070312 2.929688l-11.527344 11.527343c-8.605469 8.601563-19.171875 14.0625-30.273438 16.40625v-230.863281h6c5.519532 0 10-4.476562 10-10v-48c0-5.523438-4.480468-10-10-10h-8.28125c4.128906-11.640625 15.242188-20 28.28125-20h105.871094c5.523438 0 10-4.476562 10-10s-4.476562-10-10-10h-105.875c-24.144531 0-44.347656 17.207031-48.992188 40h-100.546874c5.070312-55.984375 52.257812-100 109.542968-100h185.871094c5.523438 0 10-4.476562 10-10s-4.476562-10-10-10h-185.875c-68.316406 0-124.496094 52.972656-129.617188 120h-10.382812c-5.519531 0-10 4.476562-10 10v48c0 5.523438 4.480469 10 10 10h6v165.84375c0 5.523438 4.480469 10 10 10 5.523438 0 10-4.476562 10-10v-165.84375h108v231.734375c-12.992188-1.578125-25.574219-7.328125-35.527344-17.277344l-11.527344-11.527343c-1.875-1.875-4.417968-2.929688-7.070312-2.929688s-5.195312 1.054688-7.070312 2.929688l-11.527344 11.527343c-23.65625 23.652344-62.148438 23.652344-85.804688 0l-11.527344-11.527343c-1.875-1.875-4.417968-2.929688-7.070312-2.929688s-5.195312 1.054688-7.070312 2.929688l-11.527344 11.527343c-23.65625 23.652344-62.148438 23.652344-85.804688 0l-11.527344-11.527343c-3.902343-3.90625-10.234374-3.90625-14.140624 0-3.90625 3.902343-3.90625 10.234374 0 14.140624l11.523437 11.527344c31.457031 31.453125 82.636719 31.453125 114.089844 0l4.457031-4.457031 4.453125 4.457031c31.457031 31.453125 82.636719 31.457032 114.089844 0l4.457031-4.453125 4.453125 4.453125c31.457031 31.457032 82.636719 31.457032 114.089844 0l4.457031-4.453125 4.453125 4.457031c15.730469 15.726563 36.386719 23.589844 57.046875 23.589844 20.65625 0 41.316406-7.863281 57.042969-23.59375l11.527343-11.527344c3.90625-3.902343 3.90625-10.234374 0-14.140624zm-322.945312-250.929688h140v28h-140zm0 0"
+                  />
+                  <path
+                    d="m502 80c-2.628906 0-5.210938 1.070312-7.070312 2.929688-1.859376 1.859374-2.929688 4.441406-2.929688 7.070312 0 2.640625 1.070312 5.210938 2.929688 7.070312 1.859374 1.859376 4.441406 2.929688 7.070312 2.929688s5.210938-1.070312 7.070312-2.929688c1.859376-1.859374 2.929688-4.441406 2.929688-7.070312s-1.070312-5.210938-2.929688-7.070312c-1.859374-1.859376-4.441406-2.929688-7.070312-2.929688zm0 0"
+                  />
+                  <path
+                    d="m199.199219 401.070312c1.859375-1.859374 2.929687-4.441406 2.929687-7.070312s-1.070312-5.210938-2.929687-7.070312c-1.871094-1.859376-4.441407-2.929688-7.070313-2.929688-2.640625 0-5.210937 1.070312-7.070312 2.929688-1.867188 1.859374-2.929688 4.441406-2.929688 7.070312s1.0625 5.210938 2.929688 7.070312c1.859375 1.859376 4.433594 2.929688 7.070312 2.929688 2.628906 0 5.210938-1.070312 7.070313-2.929688zm0 0"
+                  />
+                  <path
+                    d="m242.332031 309v-80.667969c0-5.523437-4.476562-10-10-10-5.519531 0-10 4.476563-10 10v80.667969c0 5.523438 4.480469 10 10 10 5.523438 0 10-4.476562 10-10zm0 0"
+                  />
+                  <path
+                    d="m272.332031 287.511719c5.523438 0 10-4.476563 10-10v-49.175781c0-5.523438-4.476562-10-10-10-5.519531 0-10 4.476562-10 10v49.175781c0 5.523437 4.480469 10 10 10zm0 0"
+                  />
+                  <path
+                    d="m262.332031 353.84375c0 5.523438 4.480469 10 10 10 5.523438 0 10-4.476562 10-10v-23.34375c0-5.523438-4.476562-10-10-10-5.519531 0-10 4.476562-10 10zm0 0"
+                  />
+                </svg>
+              </span>
+              <span class="plumb-text">plumbing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="how-help-section">
+      <div class="container">
+        <div class="textalign">
+          <p class="our-service">Our Service</p>
+          <span class="how">How can we help you?</span>
+          <p class="how-spec">
+            We specialize in making routine maintenance and emergency repair
+            experiences worry free. <br />Give us a call today to learn how
+            simple our process truly is!
+          </p>
+          <a href="#" class="book-now-btn">Book Now</a>
+        </div>
+      </div>
+    </section>
+    <section class="urgent-help-section">
+      <div class="container grid grid--2--cols justify-urgent grid--1--cols">
+        <div>
+          <img
+            src="img/billionphotos1882993.png"
+            class="urgent-img"
+            alt="plumber male working on a washing basin"
+          />
+          <p class="urgent-first-p">
+            By planning ahead you can save yourself from feeling stressed and
+            overwhelmed. Our Repair Services is the handyman service provider
+            trusted throughout Pennsylvania.
+          </p>
+        </div>
+        <div>
+          <span class="needhelp">Need Help Right Away?</span><br />
+          <span class="callusnow">Call us now: 723-123-345</span>
+          <img
+            src="img/billionphotos1883011.jpg"
+            class="urgent-img"
+            alt="plumber male working on a washing basin"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="quality-section">
+      <div class="container grid grid--2--cols grid--1--cols">
+        <div class="quality-img-div">
+          <img
+            src="img/billionphotos1079319min.png"
+            alt="male plumber standing with tools in his hnad and smiling"
+            class="quality-img"
+          />
+        </div>
+        <div class="best-qua-pack">
+          <p class="best-qua">best quality</p>
+          <button class="qua-btn">&nbsp;</button>
+          <p class="qua-p">
+            Company works with homeowners, contractors, realtors, and
+            residential building managers to help maintain, upgrade, and repair
+            properties
+          </p>
+          <a href="#" class="book-now-btn">Book Now</a>
+        </div>
+      </div>
+    </section>
+    <section class="our-service-two">
+      <div class="container justify-urgent">
+        <span class="howmag">Our Services</span>
+        <div class="grid grid--3--cols grid--1--cols">
+          <div>
+            <span class="our-service-icon-con">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="192"
+                height="192"
+                fill="#000000"
+                viewBox="0 0 256 256"
+                class="our-service-icon"
+              >
+                <rect width="256" height="256" fill="none"></rect>
+                <line
+                  x1="40"
+                  y1="112"
+                  x2="216"
+                  y2="112"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="16"
+                ></line>
+                <path
+                  d="M102.776,152H56a16,16,0,0,1-16-16V64A32,32,0,0,1,72,32H216V136a16,16,0,0,1-16,16H153.2241a8,8,0,0,0-7.9196,9.13137L152,208a24,24,0,0,1-48,0l6.69555-46.86862A8,8,0,0,0,102.776,152Z"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="16"
+                ></path>
+                <line
+                  x1="184"
+                  y1="32"
+                  x2="184"
+                  y2="80"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="16"
+                ></line>
+              </svg>
+            </span>
+            <p class="heading-tertiary">painting</p>
+            <p class="our-service-p">
+              We'll send a multi-skilled repairman to your residential or
+              commercial property so you save the time and...
+            </p>
+          </div>
+          <div>
+            <span class="our-service-icon-con">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="192"
+                height="192"
+                fill="#000000"
+                viewBox="0 0 256 256"
+                class="our-service-icon"
+              >
+                <rect width="256" height="256" fill="none"></rect>
+                <polygon
+                  points="96 239.992 112 159.992 48 135.992 160 15.992 144 95.992 208 119.992 96 239.992"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="16"
+                ></polygon>
+              </svg>
+            </span>
+            <p class="heading-tertiary">electrical</p>
+            <p class="our-service-p">
+              We'll send a multi-skilled repairman to your residential or
+              commercial property so you save the time and...
+            </p>
+          </div>
+          <div>
+            <span class="our-service-icon-con">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="192"
+                height="192"
+                fill="#000000"
+                viewBox="0 0 256 256"
+                class="our-service-icon"
+              >
+                <rect width="256" height="256" fill="none"></rect>
+                <path
+                  d="M184.99131,37.06756,143.02944,79.02944l5.65685,28.28427,28.28427,5.65685,41.96188-41.96187.0041-.00174a64.02489,64.02489,0,0,1-89.88113,81.03367l.00123-.00214L72.97056,216.97056a24,24,0,0,1-33.94112-33.94112L103.9608,126.944l-.00137.0007a64.02489,64.02489,0,0,1,81.03363-89.88122Z"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="16"
+                ></path>
+              </svg>
+            </span>
+            <p class="heading-tertiary">repair</p>
+            <p class="our-service-p">
+              We'll send a multi-skilled repairman to your residential or
+              commercial property so you save the time and...
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-us-section">
+      <div
+        class="
+          container
+          grid grid--2--cols
+          about-plumb-services
+          grid--1--cols
+          justify-urgent
+        "
+      >
+        <div class="about-plumb-services">
+          <p class="heading-about">about us</p>
+          <p class="about-plumb">plumbing</p>
+          <p class="service-about">services</p>
+        </div>
+        <div class="grid grid--2--cols grid--1--cols rowgap">
+          <div>
+            <img
+              src="img/frg.png"
+              class="about-img"
+              alt="male plumber wearing helmet repairing washing basin"
+            />
+          </div>
+          <div>
+            <img
+              src="img/rg.png"
+              class="about-img"
+              alt="male plumber wearing helmet writing reports in a book"
+            />
+          </div>
+          <div>
+            <img
+              src="img/billionphotos1882993.jpg"
+              class="about-img"
+              alt="male plumber repairing washing basin"
+            />
+          </div>
+          <div>
+            <img
+              src="img/billionphotos1882951.jpg"
+              class="about-img"
+              alt="male plumber wearing helmet repairing washing basin"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="todolist-section">
+      <div class="container textalign">
+        <span class="todolist-head">
+          Get your 'TO DO' list completed by a real <br />professional!
+        </span>
+        <p class="todolist-p">
+          We’re on a mission to help build long-lasting <br />brands that shape
+          and define an entire industry<br />through thoughtful design.
+        </p>
+        <div class="book-callus">
+          <a href="#" class="book-now-btn">Book Now</a>
+          <a href="#" class="callus-btn">Call us</a>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container justify-urgent">
+        <div class="footer">
+          <p class="sample">
+            Sample text. Click to select the text box. Click again or double
+            <br />click to start editing the text.
+          </p>
+
+          <div class="web-link">
+            <p>
+              <a
+                href="https://nicepage.com/website-templates"
+                target="_blank"
+                class="last-link"
+                >Website Templates</a
+              >
+              <span class="createdwith">created with</span>
+              <a href="https://nicepage.com/" class="last-link" target="_blank"
+                >Website Builder Software.</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
