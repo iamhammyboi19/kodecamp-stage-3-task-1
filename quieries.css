@@ -153,7 +153,8 @@ below 944px (landscape tablets)
     font-size: 1.6rem;
   }
   .about-plumb-services {
-    justify-items: center;
+    justify-items: start;
+    padding-left: 1.6rem;
   }
   .todolist-head {
     font-size: 2.4rem;
@@ -227,25 +228,25 @@ below 752px (smaller phones)
     padding-right: 0;
   }
   .best-qua-pack {
-    text-align: center;
     margin: 0 auto;
-    padding-bottom: 3.2rem;
+    padding: 0 1.4rem 3.2rem 1.4rem;
   }
   .urgent-first-p {
     margin-top: 0;
+    padding-left: 0;
   }
 
   .textalign {
     padding: 0 1.6rem 0 1.6rem;
   }
   .best-qua {
-    font-size: 3.2rem;
+    font-size: 3.8rem;
   }
   .qua-btn {
     width: 25rem;
   }
   .qua-p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
   .how-help-section,
   .urgent-help-section,
